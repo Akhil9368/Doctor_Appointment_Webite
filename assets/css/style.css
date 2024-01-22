@@ -223,7 +223,7 @@ body.nav-active{overflow: hidden;}
 
 .social-list{display: flex;}
 
-
+.section{padding-block: var(--section-padding) ;}
 /* ---------
    #Header
 -----------*/
@@ -335,3 +335,42 @@ body.nav-active{overflow: hidden;}
 
 
 
+/* -----------
+    #Main Section
+-------------- */
+
+.hero-banner{
+    display: none;
+
+}
+.hero{
+    background-color: var(--midnight-green);
+    --section-padding:200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.has-before,.has-after{
+    position: relative;
+    z-index: 1;
+}
+
+.has-after::after,.has-before::before{
+    content: '';
+    position: absolute;
+
+}
+.btn{
+    background-color: var(--verdigris);
+    color: var(--white);
+    font-weight: var(--fw-700);
+    padding: 12px 36px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-radius: var(--radius-6);
+    overflow: hidden;
+}
+.hero-content{
+    margin-left: 20px;
+}
