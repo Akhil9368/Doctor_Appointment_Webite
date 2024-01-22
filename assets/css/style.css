@@ -237,6 +237,7 @@ body.nav-active{overflow: hidden;}
     width: 100%;
     padding-block: 16px;
     z-index: 4;
+   
 
 }
 .header.active{
@@ -254,6 +255,7 @@ body.nav-active{overflow: hidden;}
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0px 8px;
     
 }
 
