@@ -124,7 +124,7 @@ body{
     color: var(--independece);
     line-height: 1.8;
     overflow: hidden;
-    height: auto;
+   
    
 }
 
@@ -376,7 +376,7 @@ body.nav-active{overflow: hidden;}
 .hero-content{
     margin-left: 20px;
 }
-
+/* Find Now button hover transition */
 .btn::before{
     top: 0;
     left: -100%;
