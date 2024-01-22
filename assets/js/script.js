@@ -34,7 +34,7 @@ function Open_close(){
     navbar.classList.toggle("active");
     overlay.classList.toggle("active");
     document.body.classList.toggle("nav-active");
-}
+}  
 
 
 
