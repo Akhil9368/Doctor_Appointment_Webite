@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Doclab - home</title>
+    <meta name="tittle" content="Doclab - home">
+    <meta name="description" content="This is a medical html template made by Akhil Soni">
+    <!-- fav icons -->
+    <link rel="shortcut icon" href="./facicon.svg" type="image/svg+xml">
+
+    <!-- google Fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Rubik:wght@400;500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- custom css -->
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- Preload Images -->
+    <link rel="Preload" as="image" href="./assets/images/hero-banner.png">
+    <link rel="Preload" as="image" href="./assets/images/hero-bg.png">
+</head>
+
+<body>
+    <!-- PRELOADER -->
+    <div class="preloader" data-preloader>
+        <div class="circle"></div>
+    </div>
+
+    <!-- Header -->
+    <header class="header active" data-header>
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="./assets/images/logo.svg" width="136" height="45" alt="Loading error in logo.....Please Wait">
+            </a>
+            <nav class="navbar" data-navbar>
+                <div class="navbar-top">
+                    <a href="#" class="logo">
+                        <img src="./assets/images/logo.svg" width="136" height="45"
+                            alt="Loading error in logo.....Please Wait">
+                    </a>
+                    <!-- For Cross Icon  -->
+                    <button class="nav-close-btn" onclick="Open_close()" aria-label="close-menu" data-nav-toggle>
+                        <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+                    </button>
+                </div>
+                <!-- nav ul items -->
+                <ul class="navbar-list">
+                    <!-- Home -->
+                    <li class="navbar-items">
+                        <a href="#" class="navbar-link tittle-md">Home</a>
+                    </li>
+                    <!--  Doctors -->
+                    <li class="navbar-items">
+                        <a href="#" class="navbar-link tittle-md">Doctors</a>
+                    </li>
+                    <!-- services -->
+                    <li class="navbar-items">
+                        <a href="#" class="navbar-link tittle-md">Services</a>
+                    </li>
+                    <!-- Blog -->
+                    <li class="navbar-items">
+                        <a href="#" class="navbar-link tittle-md">Blog</a>
+                    </li>
+                    <!-- Contact -->
+                    <li class="navbar-items">
+                        <a href="#" class="navbar-link tittle-md">Contact</a>
+                    </li>
+                </ul>
+                <!-- nav ul-social-items-->
+                <ul class="social-list">
+                    <!-- Twitter Logo -->
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </a>
+                    </li>
+                    <!-- Facebook -->
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </a>
+                    </li>
+                    <!-- pinterest -->
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-pinterest"></ion-icon>
+                        </a>
+                    </li>
+                    <!-- Instagram -->
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
+                    </li>
+                    <!-- Youtube -->
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-youtube"></ion-icon>
+                        </a>
+                    </li>
+                </ul>
+
+            </nav>
+            <button class="nav-open-btn" onclick="Open_close()" aria-label="open menu" data-nav-toggler>
+                <ion-icon name="menu-outline"></ion-icon>
+            </button>
+            <a href="#" class="btn has-before tittle-md">Make Appointment</a>
+
+            <div class="overlay " data-nav-toggler data-overlay></div>
+        </div>
+    </header>
+
+
+    <!-- Add Script File -->
+    <script src="./assets/js/script.js"></script>
+    <!-- Add Ionicon script -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
