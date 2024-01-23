@@ -124,7 +124,7 @@ body{
     color: var(--independece);
     line-height: 1.8;
     overflow: hidden;
-    height: 300vh;
+    /* height: 300vh; */
    
    
 }
