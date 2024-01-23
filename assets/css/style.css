@@ -350,6 +350,7 @@ body.nav-active{overflow: hidden;}
     --section-padding:200px;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-top: 45px;
 }
 
 .has-before,.has-after{
@@ -403,3 +404,38 @@ body.nav-active{overflow: hidden;}
     height: 1px;
     background-color: var(--white);
 }
+.hero-card{
+    margin-top: 6rem;
+    background-color: var(--white);
+    border-radius: var(--radius-12);
+    padding: 20px;
+    margin-right: 20px;
+}
+.hero-card .card-text{
+    color: var(--eerie-black);
+    border-block-end: 1px solid var(--midnight-green_a25);
+    margin-block-end: 14px;
+    padding-block-end: 12px;
+
+}
+.hero-card .input-wrapper {position: relative;}
+.hero-card .input-field{
+    color: var(--eerie-black);
+    border-block-end: 1px solid var(--gainsboro);
+    padding-inline-end: 18px;
+
+}
+
+.hero-card .input-wrapper ion-icon{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    color: var(--verdigris);
+}
+.hero-card .btn{
+    width: 100%;
+    justify-content: center;
+    margin-block-start: 16px;
+}
+
