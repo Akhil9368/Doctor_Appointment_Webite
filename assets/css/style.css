@@ -124,11 +124,12 @@ body{
     color: var(--independece);
     line-height: 1.8;
     overflow: hidden;
+    height: 300vh;
    
    
 }
 
-bosy.loaded{
+body.loaded{
     overflow: visible;
 }
 body.nav-active{overflow: hidden;}
@@ -350,7 +351,7 @@ body.nav-active{overflow: hidden;}
     --section-padding:200px;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: 45px;
+    /* margin-top: 45px; */
 }
 
 .has-before,.has-after{
