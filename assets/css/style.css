@@ -229,6 +229,10 @@ body.nav-active{overflow: hidden;}
 .w-100{
     width: 100%;
 }
+.grid-list{
+    display: grid;
+    gap: 40px 28px;
+}
 /* ---------
    #Header
 -----------*/
@@ -522,6 +526,10 @@ body.nav-active{overflow: hidden;}
 .section-text{
     color: var(--midnight-green);
     margin-bottom: 35px;
+    border: 1px solid red;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
 }
 .about-item{
     display: flex;
@@ -536,7 +544,30 @@ body.nav-active{overflow: hidden;}
     flex-shrink: 0;
 }
 
+/* Listing */
+.listing{
+    background-color: var(--alice-blue);
+    padding-left: 18px;
+    padding-right: 26px;}
+.listing-card{
+    padding: 25px 16px;
+    display: flex;
+    gap: 20px;
+    border: 2px solid var(--middle-blue-green_40);
+    border-radius: var(--radius-12);
+    transition: var(--transition-1);
+}
+.listing-card:is(:hover,:focus-visible){
+    border-color: var(--verdigris);
+}
+.listing-card .card-tittle{
+    margin-block-end: 5px;
+    font-family: var(--ff-oswald);
 
+}
+.listing-card .card-text{
+    color: var(--middle-blue-green_40);
+}
 
 
 
