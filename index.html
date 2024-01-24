@@ -31,200 +31,276 @@
     <div class="preloader" data-preloader>
         <div class="circle"></div>
     </div>
-<!-- Max-width -->
-<div class="max-width-section">
-    <!-- Header -->
-    <header class="header active" data-header>
-        <div class="container">
-            <a href="#" class="logo">
-                <img src="./assets/images/logo.svg" width="136" height="45" alt="Loading error in logo.....Please Wait">
-            </a>
-            <nav class="navbar" data-navbar>
-                <div class="navbar-top">
-                    <a href="#" class="logo">
-                        <img src="./assets/images/logo.svg" width="136" height="45"
-                            alt="Loading error in logo.....Please Wait">
-                    </a>
-                    <!-- For Cross Icon  -->
-                    <button class="nav-close-btn" onclick="Open_close()" aria-label="close-menu" data-nav-toggle>
-                        <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
-                    </button>
-                </div>
-                <!-- nav ul items -->
-                <ul class="navbar-list">
-                    <!-- Home -->
-                    <li class="navbar-items">
-                        <a href="#" class="navbar-link tittle-md">Home</a>
-                    </li>
-                    <!--  Doctors -->
-                    <li class="navbar-items">
-                        <a href="#" class="navbar-link tittle-md">Doctors</a>
-                    </li>
-                    <!-- services -->
-                    <li class="navbar-items">
-                        <a href="#" class="navbar-link tittle-md">Services</a>
-                    </li>
-                    <!-- Blog -->
-                    <li class="navbar-items">
-                        <a href="#" class="navbar-link tittle-md">Blog</a>
-                    </li>
-                    <!-- Contact -->
-                    <li class="navbar-items">
-                        <a href="#" class="navbar-link tittle-md">Contact</a>
-                    </li>
-                </ul>
-                <!-- nav ul-social-items-->
-                <ul class="social-list">
-                    <!-- Twitter Logo -->
-                    <li>
-                        <a href="#" class="social-link">
-                            <ion-icon name="logo-twitter"></ion-icon>
+    <!-- Max-width -->
+    <div class="max-width-section">
+        <!-- Header -->
+        <header class="header active" data-header>
+            <div class="container">
+                <a href="#" class="logo">
+                    <img src="./assets/images/logo.svg" width="136" height="45"
+                        alt="Loading error in logo.....Please Wait">
+                </a>
+                <nav class="navbar" data-navbar>
+                    <div class="navbar-top">
+                        <a href="#" class="logo">
+                            <img src="./assets/images/logo.svg" width="136" height="45"
+                                alt="Loading error in logo.....Please Wait">
                         </a>
-                    </li>
-                    <!-- Facebook -->
-                    <li>
-                        <a href="#" class="social-link">
-                            <ion-icon name="logo-facebook"></ion-icon>
-                        </a>
-                    </li>
-                    <!-- pinterest -->
-                    <li>
-                        <a href="#" class="social-link">
-                            <ion-icon name="logo-pinterest"></ion-icon>
-                        </a>
-                    </li>
-                    <!-- Instagram -->
-                    <li>
-                        <a href="#" class="social-link">
-                            <ion-icon name="logo-instagram"></ion-icon>
-                        </a>
-                    </li>
-                    <!-- Youtube -->
-                    <li>
-                        <a href="#" class="social-link">
-                            <ion-icon name="logo-youtube"></ion-icon>
-                        </a>
-                    </li>
-                </ul>
-
-            </nav>
-            <button class="nav-open-btn" onclick="Open_close()" aria-label="open menu" data-nav-toggler>
-                <ion-icon name="menu-outline"></ion-icon>
-            </button>
-            <a href="#" class="btn has-before tittle-md">Make Appointment</a>
-
-            <div class="overlay " data-nav-toggler data-overlay></div>
-        </div>
-    </header>
-
-    <main>
-        <article>
-
-            <section class="section hero" style="background-image: url('./assets/images/hero-bg.png');"
-                aria-label="home">
-                <div class="container hero-cont">
-                    <div class="hero-content">
-                        <p class="hero-subtittle has-before" data-reveal="left">Welcome to Doclab</p>
-                        <h1 class="headline-lg hero-tittle" data-reveal="left">Find Nearest <br> Doctor.</h1>
-                        <div class="hero-card" data-reveal="left">
-                            <p class="tittle-lg card-text">
-                                Search doctors, clinics, hospitals, etc.
-                            </p>
-                            <div class="wrapper">
-                                <div class="input-wrapper tittle-lg">
-                                    <input type="text" name="location" placeholder="Locations" id=""
-                                        class="input-field">
-                                    <ion-icon name="location"></ion-icon>
-                                </div>
-                                <button class="btn has-before">
-                                    <ion-icon name="Search"></ion-icon>
-                                    <span class="span tittle-md">Find Now</span>
-                                </button>
-                            </div>
-                        </div>
+                        <!-- For Cross Icon  -->
+                        <button class="nav-close-btn" onclick="Open_close()" aria-label="close-menu" data-nav-toggle>
+                            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+                        </button>
                     </div>
-
-                    <figure class="hero-banner" data-reveal="Right">
-                        <img src="./assets/images/hero-banner.png" width="590" height="517" loading="eager"
-                            alt="Banner image not found" class="w-100">
-                    </figure>
-                </div>
-            </section>
-
-            <!-- Services -->
-            <section class="service" aria-label="service">
-                <div class="container">
-                    <ul class="service-list">
-                        <li>
-                        <div class="service-card" data-reveal="button">
-                            <div class="card-icon">
-                                <img src="./assets/images/icon-1.png" height="71" width="71" loading="lazy" alt="icon">
-                            </div>
-                            <h3 class="hearder-sm card-tittle">
-                                <a href="#">Psychiatry</a>
-                            </h3>
-                            <p class="card-text">
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, laborum?
-                            </p>
-                            <button class="btn-circle" aria-label="read more about Psychiatry">
-                                <ion-icon name="arrow-forward" arial-hidden="true"></ion-icon>
-                            </button>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="service-card" data-reveal="button">
-                            <div class="card-icon">
-                                <img src="./assets/images/icon-2.png" height="71" width="71" loading="lazy" alt="icon">
-                            </div>
-                            <h3 class="hearder-sm card-tittle">
-                                <a href="#">Gynecology</a>
-                            </h3>
-                            <p class="card-text">
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, laborum?
-                            </p>
-                            <button class="btn-circle" aria-label="read more about Psychiatry"><ion-icon name="arrow-forward" arial-hidden="true"></ion-icon></button>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="service-card" data-reveal="button">
-                            <div class="card-icon">
-                                <img src="./assets/images/icon-3.png" height="71" width="71" loading="lazy" alt="icon">
-                            </div>
-                            <h3 class="hearder-sm card-tittle">
-                                <a href="#">Pulmonology</a>
-                            </h3>
-                            <p class="card-text">
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, laborum?
-                            </p>
-                            <button class="btn-circle" aria-label="read more about Psychiatry">
-                                <ion-icon name="arrow-forward" arial-hidden="true"></ion-icon>
-                            </button>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="service-card" data-reveal="button">
-                            <div class="card-icon">
-                                <img src="./assets/images/icon-4.png" height="71" width="71" loading="lazy" alt="icon">
-                            </div>
-                            <h3 class="hearder-sm card-tittle">
-                                <a href="#">Orthopedics</a>
-                            </h3>
-                            <p class="card-text">
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, laborum?
-                            </p>
-                            <button class="btn-circle" aria-label="read more about Psychiatry">
-                                <ion-icon name="arrow-forward" arial-hidden="true"></ion-icon>
-                            </button>
-                        </div>
-                    </li>
+                    <!-- nav ul items -->
+                    <ul class="navbar-list">
+                        <!-- Home -->
+                        <li class="navbar-items">
+                            <a href="#" class="navbar-link tittle-md">Home</a>
+                        </li>
+                        <!--  Doctors -->
+                        <li class="navbar-items">
+                            <a href="#" class="navbar-link tittle-md">Doctors</a>
+                        </li>
+                        <!-- services -->
+                        <li class="navbar-items">
+                            <a href="#" class="navbar-link tittle-md">Services</a>
+                        </li>
+                        <!-- Blog -->
+                        <li class="navbar-items">
+                            <a href="#" class="navbar-link tittle-md">Blog</a>
+                        </li>
+                        <!-- Contact -->
+                        <li class="navbar-items">
+                            <a href="#" class="navbar-link tittle-md">Contact</a>
+                        </li>
                     </ul>
-                </div>
-            </section>
+                    <!-- nav ul-social-items-->
+                    <ul class="social-list">
+                        <!-- Twitter Logo -->
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-twitter"></ion-icon>
+                            </a>
+                        </li>
+                        <!-- Facebook -->
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-facebook"></ion-icon>
+                            </a>
+                        </li>
+                        <!-- pinterest -->
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-pinterest"></ion-icon>
+                            </a>
+                        </li>
+                        <!-- Instagram -->
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-instagram"></ion-icon>
+                            </a>
+                        </li>
+                        <!-- Youtube -->
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-youtube"></ion-icon>
+                            </a>
+                        </li>
+                    </ul>
 
-        </article>
-    </main>
+                </nav>
+                <button class="nav-open-btn" onclick="Open_close()" aria-label="open menu" data-nav-toggler>
+                    <ion-icon name="menu-outline"></ion-icon>
+                </button>
+                <a href="#" class="btn has-before tittle-md">Make Appointment</a>
 
-</div>
+                <div class="overlay " data-nav-toggler data-overlay></div>
+            </div>
+        </header>
+
+        <main>
+            <article>
+                <!-- Main Section -->
+                <section class="section hero" style="background-image: url('./assets/images/hero-bg.png');"
+                    aria-label="home">
+                    <div class="container hero-cont">
+                        <div class="hero-content">
+                            <p class="hero-subtittle has-before" data-reveal="left">Welcome to Doclab</p>
+                            <h1 class="headline-lg hero-tittle" data-reveal="left">Find Nearest <br> Doctor.</h1>
+                            <div class="hero-card" data-reveal="left">
+                                <p class="tittle-lg card-text">
+                                    Search doctors, clinics, hospitals, etc.
+                                </p>
+                                <div class="wrapper">
+                                    <div class="input-wrapper tittle-lg">
+                                        <input type="text" name="location" placeholder="Locations" id=""
+                                            class="input-field">
+                                        <ion-icon name="location"></ion-icon>
+                                    </div>
+                                    <button class="btn has-before">
+                                        <ion-icon name="Search"></ion-icon>
+                                        <span class="span tittle-md">Find Now</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <figure class="hero-banner" data-reveal="Right">
+                            <img src="./assets/images/hero-banner.png" width="590" height="517" loading="eager"
+                                alt="Banner image not found" class="w-100">
+                        </figure>
+                    </div>
+                </section>
+
+                <!-- Services -->
+                <section class="service" aria-label="service">
+                    <div class="container">
+                        <ul class="service-list">
+                            <li>
+                                <div class="service-card" data-reveal="button">
+                                    <div class="card-icon">
+                                        <img src="./assets/images/icon-1.png" height="71" width="71" loading="lazy"
+                                            alt="icon">
+                                    </div>
+                                    <h3 class="hearder-sm card-tittle">
+                                        <a href="#">Psychiatry</a>
+                                    </h3>
+                                    <p class="card-text">
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, laborum?
+                                    </p>
+                                    <button class="btn-circle" aria-label="read more about Psychiatry">
+                                        <ion-icon name="arrow-forward" arial-hidden="true"></ion-icon>
+                                    </button>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="service-card" data-reveal="button">
+                                    <div class="card-icon">
+                                        <img src="./assets/images/icon-2.png" height="71" width="71" loading="lazy"
+                                            alt="icon">
+                                    </div>
+                                    <h3 class="hearder-sm card-tittle">
+                                        <a href="#">Gynecology</a>
+                                    </h3>
+                                    <p class="card-text">
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, laborum?
+                                    </p>
+                                    <button class="btn-circle" aria-label="read more about Psychiatry"><ion-icon
+                                            name="arrow-forward" arial-hidden="true"></ion-icon></button>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="service-card" data-reveal="button">
+                                    <div class="card-icon">
+                                        <img src="./assets/images/icon-3.png" height="71" width="71" loading="lazy"
+                                            alt="icon">
+                                    </div>
+                                    <h3 class="hearder-sm card-tittle">
+                                        <a href="#">Pulmonology</a>
+                                    </h3>
+                                    <p class="card-text">
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, laborum?
+                                    </p>
+                                    <button class="btn-circle" aria-label="read more about Psychiatry">
+                                        <ion-icon name="arrow-forward" arial-hidden="true"></ion-icon>
+                                    </button>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="service-card" data-reveal="button">
+                                    <div class="card-icon">
+                                        <img src="./assets/images/icon-4.png" height="71" width="71" loading="lazy"
+                                            alt="icon">
+                                    </div>
+                                    <h3 class="hearder-sm card-tittle">
+                                        <a href="#">Orthopedics</a>
+                                    </h3>
+                                    <p class="card-text">
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, laborum?
+                                    </p>
+                                    <button class="btn-circle" aria-label="read more about Psychiatry">
+                                        <ion-icon name="arrow-forward" arial-hidden="true"></ion-icon>
+                                    </button>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!-- About -->
+                <section class="section about" aria-labelledby="about-label">
+                    <div class="container">
+                        <div class="about-content">
+                            <p class="section-subttitle tittle-lg has-after" id="about-label" data-reveal="left">About
+                                us</p>
+
+                            <h2 class="headline-md" data-reveal="left">Experienced Workers</h2>
+                            <p class="section-text" data-reveal="left">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos impedit vero doloremque,
+                                harum culpa tempora odio quod similique sit, est, cum accusamus? Voluptas cumque animi
+                                neque porro qui pariatur reprehenderit!
+                            </p>
+                            <ul class="tab-list" data-reveal="left">
+                                <li>
+                                    <button class="tab-btn active">
+                                        Vision
+                                    </button>
+                                </li>
+                                <li>
+                                    <button class="tab-btn">
+                                        Mission
+                                    </button>
+                                </li>
+                                <li>
+                                    <button class="tab-btn">
+                                        Strategy
+                                    </button>
+                                </li>
+                            </ul>
+                            <p class="section-text" data-reveal="left">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos minus a autem
+                                suscipit enim reprehenderit explicabo natus consectetur beatae assumenda corrupti
+                                impedit fugit voluptate incidunt similique expedita, odit modi ducimus reiciendis
+                                voluptates sed esse? Id doloribus ullam temporibus non obcaecati.
+                            </p>
+
+                            <div class="wrapper">
+                                <ul class="about-list">
+                                    <li class="about-item" data-reveal="left">
+                                        <ion-icon name="checkmark-circle-outline"></ion-icon>
+
+                                        <span class="span">Sonsectetur adispscing elit</span>
+                                    </li>
+                                    <li class="about-item" data-reveal="left">
+                                        <ion-icon name="checkmark-circle-outline"></ion-icon>
+
+                                        <span class="span">Excrcitation ullamco loboris</span>
+                                    </li>
+                                    <li class="about-item" data-reveal="left">
+                                        <ion-icon name="checkmark-circle-outline"></ion-icon>
+
+                                        <span class="span">Eiusmod tempor incididunt</span>
+                                    </li>
+                                    <li class="about-item" data-reveal="left">
+                                        <ion-icon name="checkmark-circle-outline"></ion-icon>
+
+                                        <span class="span">Aolore manga aliqua</span>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                        <figure class="about-banner" data-reveal="right">
+                            <img src="./assets/images/about-banner.png"  width="450" height="490" alt="about-banner"
+                                class="w-100" loading="lazy">
+                        </figure>
+                    </div>
+                </section>
+
+            </article>
+        </main>
+
+    </div>
     <!-- Add Script File -->
     <script src="./assets/js/script.js"></script>
     <!-- Add Ionicon script -->
