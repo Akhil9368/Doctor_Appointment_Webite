@@ -727,10 +727,10 @@ body.nav-active {
     cursor: pointer;
 }
 
-.blog-card:is(:hover, :focus-within)
+/* .blog-card:is(:hover, :focus-within)
 {
    --hover-color:var(--white);
-}
+} */
 
 .blog-card .meta-wrapper{
     display: flex;
@@ -806,9 +806,10 @@ body.nav-active {
     font-size: 3rem;
 
 }
-.footer-list.first{
-    /* border: 1px solid white; */
-  width: auto;
+.footer-list{
+    padding-left: 18px;
+    padding-right: 20px;
+    border: 1px solid red;
 }
 .contact-item .item-icon{
     display: inline;
@@ -823,14 +824,17 @@ body.nav-active {
     margin-block-end: 20px;
     /* border: 1px solid red; */
 }
+
 .footer .text{
     opacity: 0.7;
 }
+
 .footer .address{
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     gap: 12px;
     margin-block-start:20px ;
+    justify-content: center;
 }
 .footer .address ion-icon{
     font-size: 4rem;
@@ -876,3 +880,12 @@ body.nav-active {
 .footer-bottom .social-link:is(:hover,:focus-visible){
     background-color: var(--verdigris);
 }
+.about-us{
+    border: 1px solid red;
+    /* width: auto; */
+    text-align: center;
+    /* padding-block: 20px 23px; */
+}
+/* .about-us span{
+    text-align: center;
+} */
