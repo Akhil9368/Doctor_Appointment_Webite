@@ -876,12 +876,11 @@ body.nav-active {
 .footer-bottom .social-link:is(:hover,:focus-visible){
     background-color: var(--verdigris);
 }
-/* .about-us{
+.about-us{
    
-    padding-left: 4rem;
-    padding-right: 4rem;
+   margin-left: 12px;
    
-} */
+}
 
 .footer-text{
     
