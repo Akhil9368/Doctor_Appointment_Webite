@@ -653,7 +653,7 @@ body.nav-active {
 /* Listing */
 .listing {
     background-color: var(--alice-blue);
-    padding-left: 22px;
+    padding-left: 26px;
     padding-right: 24px;
 }
 
