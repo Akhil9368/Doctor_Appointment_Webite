@@ -768,3 +768,111 @@ body.nav-active {
     color: var(--white);
 }
 
+/* footer */
+.footer{
+    background-color: var(--midnight-green);
+    color: var(--white);
+    background-position: top right;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.footer-top{
+    display: flex;
+    gap: 40px;
+   flex-wrap: wrap;
+    padding-block-end: 60px;
+    justify-content: center;
+}
+.footer-brand{
+    background-color: var(--ming);
+    padding: 38px;
+    border-radius: var(--radius-12);
+   
+    
+}
+.footer .logo{
+    margin-block-end: 20px;
+}
+.contact-item{
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    /* border: 1px solid red; */
+    margin-block-start: 12px;
+    
+
+}
+.contact-item .item-icon{
+    font-size: 3rem;
+
+}
+.footer-list.first{
+    /* border: 1px solid white; */
+  width: auto;
+}
+.contact-item .item-icon{
+    display: inline;
+    transition: var(--transition-1);
+}
+.contact-link:is(:hover,:focus-visible){
+    color: var(--verdigris);
+}
+.footer-list-tittle{
+    color: var(--white);
+    font-weight: var(--fw-700);
+    margin-block-end: 20px;
+    /* border: 1px solid red; */
+}
+.footer .text{
+    opacity: 0.7;
+}
+.footer .address{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-block-start:20px ;
+}
+.footer .address ion-icon{
+    font-size: 4rem;
+    flex-shrink: 0;
+}
+
+.footer-link{
+    margin-block-start: 8px;
+    transition: var(--transition-1);
+
+}
+.footer-link:is(:hover,:focus-visible){color: var(--verdigris);}
+
+.footer-form .input-field{
+    color: var(--white);
+    border: 1px solid var(--white_a20);
+    border-radius: var(--radius-4);
+    padding: 8px 20px;
+}
+.footer-form .input-field::placeholder{color: inherit;}
+.footer-form .btn{
+    width: 100%;
+    justify-content: center;
+    margin-block: 12px 28px;
+}
+.footer-bottom{
+    padding-block: 10px;
+    border-block-start: 1px solid var(--white_a20);
+  
+}
+
+.footer-bottom .social-link{
+    font-size: 1.4em;
+    padding: 8px;
+    background-color: var(--white_a10);
+    border-radius: var(--radius-circle);
+    transition: var(--transition-1);
+}
+.footer-bottom .copyright{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.footer-bottom .social-link:is(:hover,:focus-visible){
+    background-color: var(--verdigris);
+}
