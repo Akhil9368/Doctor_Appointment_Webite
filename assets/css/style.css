@@ -806,11 +806,7 @@ body.nav-active {
     font-size: 3rem;
 
 }
-.footer-list{
-    padding-left: 18px;
-    padding-right: 20px;
-    /* border: 1px solid red; */
-}
+
 .contact-item .item-icon{
     display: inline;
     transition: var(--transition-1);
@@ -834,7 +830,7 @@ body.nav-active {
     /* align-items: center; */
     gap: 12px;
     margin-block-start:20px ;
-    justify-content: center;
+    
 }
 .footer .address ion-icon{
     font-size: 4rem;
@@ -881,11 +877,13 @@ body.nav-active {
     background-color: var(--verdigris);
 }
 .about-us{
-    /* border: 1px solid red; */
-    /* width: auto; */
-    text-align: center;
-    /* padding-block: 20px 23px; */
+   
+    padding-left: 4rem;
+    padding-right: 4rem;
+   
 }
-/* .about-us span{
-    text-align: center;
-} */
+
+.footer-text{
+    
+    display: inline;
+}
