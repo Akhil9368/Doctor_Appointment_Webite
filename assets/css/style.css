@@ -593,8 +593,8 @@ body.nav-active {
 } */
 .about {
     padding-block-end: 0;
-    padding-left: 18px;
-    padding-right: 22px;
+    padding-left: 22px;
+    padding-right: 24px;
 
 }
 
@@ -653,8 +653,8 @@ body.nav-active {
 /* Listing */
 .listing {
     background-color: var(--alice-blue);
-    padding-left: 18px;
-    padding-right: 26px;
+    padding-left: 22px;
+    padding-right: 24px;
 }
 
 .listing-card {
