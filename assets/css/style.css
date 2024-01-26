@@ -353,6 +353,7 @@ body.nav-active {
 .nav-open-btn {
     font-size: 4rem;
     color: var(--white);
+    margin-right: 20px;
 }
 
 .navbar,
@@ -816,7 +817,7 @@ body.nav-active {
 .footer-list{
     padding-left: 10px;
     padding-right: 10px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .footer .logo{
     margin-block-end: 20px;
