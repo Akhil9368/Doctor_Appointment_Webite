@@ -138,6 +138,7 @@ body {
     /* height: 300vh; */
 
 
+
 }
 
 body.loaded {
@@ -799,10 +800,11 @@ body.nav-active {
 }
 .footer-top{
     display: flex;
-    gap: 48px;
+    gap: 44px;
    flex-wrap: wrap;
     padding-block-end: 60px;
     justify-content: center;
+    
 }
 .footer-brand{
     background-color: var(--ming);
@@ -814,6 +816,7 @@ body.nav-active {
 .footer-list{
     padding-left: 10px;
     padding-right: 10px;
+    border: 1px solid red;
 }
 .footer .logo{
     margin-block-end: 20px;
