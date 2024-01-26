@@ -136,13 +136,14 @@ body {
     line-height: 1.8;
     overflow: hidden;
     /* height: 300vh; */
+    overflow-x: hidden;
 
 
 
 }
 
 body.loaded {
-    overflow: visible;
+    overflow-y: visible;
 }
 
 body.nav-active {
@@ -610,10 +611,11 @@ body.nav-active {
 
 /* About */
 
-/* .about-banner{
+
+.about-banner{
     display: none;
     
-} */
+}
 .about {
     padding-block-end: 0;
     padding-left: 22px;
