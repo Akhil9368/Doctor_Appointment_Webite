@@ -46,13 +46,37 @@ function Open_close(){
  */
 
 const header = document.querySelector("[data-header]");
-
+const backbtn = document.querySelector("[data-back-top-btn]");
 const activeElementOnScroll = function () {
   if (window.scrollY > 100) {
     header.classList.add("active");
+    backbtn.classList.add("active");
   } else {
     header.classList.remove("active");
+    backbtn.classList.remove("active");
   }
 }
 
 window.addEventListener("scroll", activeElementOnScroll);
+
+
+// Scroll Reveal
+
+const revealElements = document.querySelectorAll("[data-reveal]");
+console.log(revealElements)
+const revealElementOnScroll = function(){
+  console.log("Akhil"+ revealElements);
+  for(let i=0, len=revealElements.length; i<len;i++){
+   
+    if(revealElements[i].getBoundingClientRect().top < window.innerHeight/1.15){
+      revealElements[i].classList.add("revealed");
+    }
+    else{
+      revealElements[i].classList.remove("revealed");
+    }
+
+  }
+}
+
+window.addEventListener("scroll",revealElementOnScroll);
+window.addEventListener("load",revealElementOnScroll)

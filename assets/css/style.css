@@ -284,7 +284,28 @@ body.nav-active {
 .text-center {
     text-align: center;
 }
+[data-reveal]{
+    opacity: 0;
+    transition: var(--transition-2);
+}
+[data-reveal].revealed {
+    opacity: 1;
+}
+[data-reveal="bottom"]{
+    transform: translateY(50px);
 
+}
+[data-reveal="bottom"].revaled{transform: translateY(0);}
+[data-reveal="left"]{
+    transform: translateX(-50px);
+}
+[data-reveal="right"]{
+    transform: translateX(50px);
+}
+[data-reveal="left"].revealed,
+[data-reveal="right"].revealed {
+    transform: translateX(0);
+}
 /* ---------
    #Header
 -----------*/
@@ -865,10 +886,6 @@ body.nav-active {
     border-block-start: 1px solid var(--white_a20);
   
 }
-.footer-list{
-   
-    
-}
 
 .footer-bottom .social-link{
     font-size: 1.4em;
@@ -893,4 +910,24 @@ body.nav-active {
 .footer-text{
     
     display: inline;
+}
+.back-top-button{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: var(--verdigris);
+    color: var(--white);
+    font-size: 16px;
+    padding: 16px;
+    border-radius: var(--radius-circle);
+    transition: var(--transition-1);
+z-index: 4;opacity: 0;
+}
+
+.back-top-button:is(:hover,:focus-visible){
+    background-color: var(--eerie-black);
+}
+.back-top-button.active{
+    transform: translateY(-10px);
+    opacity: 1;
 }

@@ -26,7 +26,7 @@
     <link rel="Preload" as="image" href="./assets/images/hero-bg.png">
 </head>
 
-<body>
+<body id="top">
     <!-- PRELOADER -->
     <div class="preloader" data-preloader>
         <div class="circle"></div>
@@ -157,7 +157,7 @@
                     <div class="container">
                         <ul class="service-list">
                             <li>
-                                <div class="service-card" data-reveal="button">
+                                <div class="service-card" data-reveal="bottom">
                                     <div class="card-icon">
                                         <img src="./assets/images/icon-1.png" height="71" width="71" loading="lazy"
                                             alt="icon">
@@ -174,7 +174,7 @@
                                 </div>
                             </li>
                             <li>
-                                <div class="service-card" data-reveal="button">
+                                <div class="service-card" data-reveal="bottom">
                                     <div class="card-icon">
                                         <img src="./assets/images/icon-2.png" height="71" width="71" loading="lazy"
                                             alt="icon">
@@ -190,7 +190,7 @@
                                 </div>
                             </li>
                             <li>
-                                <div class="service-card" data-reveal="button">
+                                <div class="service-card" data-reveal="bottom">
                                     <div class="card-icon">
                                         <img src="./assets/images/icon-3.png" height="71" width="71" loading="lazy"
                                             alt="icon">
@@ -207,7 +207,7 @@
                                 </div>
                             </li>
                             <li>
-                                <div class="service-card" data-reveal="button">
+                                <div class="service-card" data-reveal="bottom">
                                     <div class="card-icon">
                                         <img src="./assets/images/icon-4.png" height="71" width="71" loading="lazy"
                                             alt="icon">
@@ -290,7 +290,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <figure class="about-banner" data-reveal="right">
+                        <figure class="about-banner" data-reveal="left">
                             <img src="./assets/images/about-banner.png" height="450" alt="about-banner" class="w-100"
                                 loading="lazy">
                         </figure>
@@ -310,7 +310,7 @@
                                 </h2>
                             </li>
                             <li>
-                                <div class="listing-card" data-reveal="button">
+                                <div class="listing-card" data-reveal="left">
                                     <div class="card-icon">
                                         <img src="./assets/images/icon-1.png" loading="lazy" width="71" height="71"
                                             alt="icon">
@@ -322,7 +322,7 @@
                                 </div>
                             </li>
                             <li>
-                                <div class="listing-card" data-reveal="button">
+                                <div class="listing-card" data-reveal="right">
                                     <div class="card-icon">
                                         <img src="./assets/images/icon-2.png" loading="lazy" width="71" height="71"
                                             alt="icon">
@@ -334,7 +334,7 @@
                                 </div>
                             </li>
                             <li>
-                                <div class="listing-card" data-reveal="button">
+                                <div class="listing-card" data-reveal="left">
                                     <div class="card-icon">
                                         <img src="./assets/images/icon-3.png" loading="lazy" width="71" height="71"
                                             alt="icon">
@@ -346,7 +346,7 @@
                                 </div>
                             </li>
                             <li>
-                                <div class="listing-card" data-reveal="button">
+                                <div class="listing-card" data-reveal="right">
                                     <div class="card-icon">
                                         <img src="./assets/images/icon-4.png" loading="lazy" width="71" height="71"
                                             alt="icon">
@@ -358,7 +358,7 @@
                                 </div>
                             </li>
                             <li>
-                                <div class="listing-card" data-reveal="button">
+                                <div class="listing-card" data-reveal="left">
                                     <div class="card-icon">
                                         <img src="./assets/images/icon-5.png" loading="lazy" width="71" height="71"
                                             alt="icon">
@@ -370,7 +370,7 @@
                                 </div>
                             </li>
                             <li>
-                                <div class="listing-card" data-reveal="button">
+                                <div class="listing-card" data-reveal="right">
                                     <div class="card-icon">
                                         <img src="./assets/images/icon-6.png" loading="lazy" width="71" height="71"
                                             alt="icon">
@@ -387,10 +387,10 @@
                 <!-- News And Articles -->
                 <section class="section blog" aria-labelledby="blog-label">
                     <div class="container">
-                        <p class="section-subtittle tittle-lg text-center" id="blog-label">News & Article</p>
-                        <h2 class="section-tittle headline-md text-center">Latest Articles</h2>
+                        <p class="section-subtittle tittle-lg text-center" id="blog-label" data-reveal="left">News & Article</p>
+                        <h2 class="section-tittle headline-md text-center" data-reveal="left">Latest Articles</h2>
                         <li>
-                            <div class="blog-card has-before has-after" data-reveal="bottom">
+                            <div class="blog-card has-before has-after" data-reveal="left">
                                 <div class="meta-wrapper">
                                     <div class="card-meta">
                                         <ion-icon name="person-outline"></ion-icon>
@@ -415,7 +415,7 @@
                             </div>
                         </li>
                         <li>
-                            <div class="blog-card has-before has-after" data-reveal="bottom">
+                            <div class="blog-card has-before has-after" data-reveal="left">
                                 <div class="meta-wrapper">
                                     <div class="card-meta">
                                         <ion-icon name="person-outline"></ion-icon>
@@ -441,7 +441,7 @@
                             </div>
                         </li>
                         <li>
-                            <div class="blog-card has-before has-after" data-reveal="bottom">
+                            <div class="blog-card has-before has-after" data-reveal="left">
                                 <div class="meta-wrapper">
                                     <div class="card-meta">
                                         <ion-icon name="person-outline"></ion-icon>
@@ -630,6 +630,11 @@
                         </div>
                     </div>
                 </footer>
+
+                <!-- Back to top -->
+                <a href="#top" class="back-top-button" data-back-top-btn>
+                    <ion-icon name="chevron-up"></ion-icon>
+                </a>
 
             </article>
         </main>
