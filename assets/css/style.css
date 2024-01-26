@@ -799,7 +799,7 @@ body.nav-active {
 }
 .footer-top{
     display: flex;
-    gap: 44px;
+    gap: 48px;
    flex-wrap: wrap;
     padding-block-end: 60px;
     justify-content: center;
