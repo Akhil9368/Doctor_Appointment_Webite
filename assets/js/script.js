@@ -27,7 +27,7 @@ window.addEventListener("load", function(){
 let navbar = document.querySelector("[data-navbar]");
 let navTogglers = document.querySelectorAll("data-nav-toggler");
 let overlay = document.querySelector("[data-overlay]");
-const open_btn = document.getElementsByClassName(".nav-open-btn");
+// const open_btn = document.getElementsByClassName(".nav-open-btn");
 
 // console.log(open_btn)
 function Open_close(){
