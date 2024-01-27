@@ -615,7 +615,7 @@ body.nav-active {
 
 .about {
     padding-block-end: 0;
-    padding-left: 112px;
+    padding-left: 34px;
     padding-right: 24px;
 
 }
@@ -675,7 +675,7 @@ body.nav-active {
 /* Listing */
 .listing {
     background-color: var(--alice-blue);
-    padding-left: 87px;
+    padding-left: 22px;
     padding-right: 24px;
 }
 
