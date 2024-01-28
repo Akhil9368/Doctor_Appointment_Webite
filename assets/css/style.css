@@ -1268,9 +1268,10 @@ body.nav-active {
         margin-block-start: 0;
     }
     .hero-banner{
-      
-   
-        padding-inline: 25px;
+      display: block;
+      margin-top: 5rem;
+        /* padding-inline: -25px; */
+        
     }
 
     /* Services */
@@ -1442,5 +1443,6 @@ body.nav-active {
     width: 100%;
   }
  
+
  
 }
