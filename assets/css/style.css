@@ -1367,9 +1367,10 @@ body.nav-active {
     .navbar{
         margin-inline-start: auto;
     }
-    .nav-open-btn,.overlay,.navbar-top,.navbar,.social-link{
+    .nav-open-btn,.overlay,.navbar-top,.navbar,.navbar .social-link{
         display: none;
     }
+   
     .navbar,.navbar.active,.navbar-list{
         all: unset;
         display: block;
@@ -1441,6 +1442,9 @@ body.nav-active {
     padding-right: 12px;
     margin-top: 51px;
     width: 100%;
+  }
+  .social-list li{
+    display: block;
   }
   
  
